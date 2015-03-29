@@ -26,3 +26,10 @@ reference
 * Improved Noise reference implementation (Ken Perlin)
   * http://cs.nyu.edu/~perlin/noise/
 
+
+libraries
+----
+cv_perlin_noise uses the following libraries.
+
+  * OpenCV 3.0.0 beta
+    * http://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.0.0-beta/
