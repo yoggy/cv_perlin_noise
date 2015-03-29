@@ -13,6 +13,8 @@
 //     http://cs.nyu.edu/~perlin/noise/
 //
 #pragma once
+
+#pragma warning(disable : 4819)
 #include <opencv2/core.hpp>
 
 extern cv::Mat CreatePerlinNoiseImage(const cv::Size &size, const double &scale = 0.05);

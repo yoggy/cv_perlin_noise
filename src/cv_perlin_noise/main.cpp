@@ -1,4 +1,13 @@
-#include "stdafx.h"
+// opencv
+#pragma warning(disable : 4819)
+#include <opencv2/core.hpp>
+#include <opencv2/highgui.hpp>
+
+#ifdef _DEBUG
+#pragma comment(lib, "opencv_world300d.lib")
+#else
+#pragma comment(lib, "opencv_world300.lib")
+#endif
 
 #include "PerlinNoise.h"
 
@@ -11,4 +20,3 @@ int main(int argc, char* argv[])
 
 	return 0;
 }
-

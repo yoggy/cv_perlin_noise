@@ -12,8 +12,6 @@
 // reference:
 //     http://cs.nyu.edu/~perlin/noise/
 //
-#include "stdafx.h"
-
 #include <math.h>
 #include "PerlinNoise.h"
 
